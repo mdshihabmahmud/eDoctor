@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link rel="shotcut icon"href="">
+	<title>HMS</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+</head>
+<body>
+  <section class="container-fluid">
+  <div id="section5">
+    <nav class="navbar navbar-dark bg-dark">
+  <form class="container-fluid justify-content-start">
+    <button class="btn btn-outline-info" type="button"><a style="text-decoration:none;" href="index.html">Back</a></button>
+  </form>
+     </nav>
+    <h1 style="color:black; background-color: powderblue;">Make an Appoinment</h1>
+    <div class="container">
+  <form action="/action_page.php">
+
+    <label for="date">Pick Date</label>
+    <input type="date" id="date" name="date">
+
+    <label for="dept">Department</label>
+    <select id="dept" name="dept">
+      <option value="skin">Select Department</option>
+      <option value="skin">Skin Care</option>
+      <option value="dental">Dental Care</option>
+      <option value="dia">Diagonostic Care</option>
+      <option value="physical">Physical Care</option>
+    </select>
+
+    <label for="dr">Doctor</label>
+    <select id="dr" name="dr">
+      <option value="jhn">Select Doctor</option>
+      <option value="jhn">Dr. Jhon</option>
+      <option value="walker">Dr. Walker</option>
+      <option value="kya">Dr. Keya</option>
+      <option value="snta">Dr. Shanta</option>
+    </select>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Write Your name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Your Email">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write Your Problem" style="height:200px"></textarea>
+
+    <input type="submit" value="Appoinment"><br><br>
+  </form>
+</div>
+  </div>
+</section>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+</body>
+</html>
